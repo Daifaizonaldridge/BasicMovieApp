@@ -1,0 +1,27 @@
+﻿@page "/MovieReview/{Id:int}"
+@attribute [StreamRendering(true)]
+@inject IMovieReviewService MovieReviewService
+
+<h3>MovieReview for @MovieItem?.Title</h3>
+
+@if(MovieItem == null)
+{
+    <h3>Loading...</h3>
+}
+else
+{
+    
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private MovieModel? MovieItem { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(1000);
+        MovieItem = MovieReviewService?.GetMovieById(Id);
+    }
+}
