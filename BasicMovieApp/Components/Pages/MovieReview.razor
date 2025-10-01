@@ -10,7 +10,14 @@
 }
 else
 {
-    
+    <div class="row">
+        <div class="col-6">
+            <img style=" width:100%" src="@MovieItem?.ImageUrl" alt="@MovieItem?.Title"/>
+        </div>
+        <div class="col-6">
+            @MovieItem?.Review
+        </div>
+    </div>
 }
 
 @code {
