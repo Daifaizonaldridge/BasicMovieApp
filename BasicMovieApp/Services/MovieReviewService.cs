@@ -11,7 +11,7 @@ namespace BasicMovieApp.Services
                     Id = 1,
                     Title = "Highlander",
                     Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    ImageUrl = "/images/movies/Highlander.png",
+                    ImageUrl = "/images/Movies/Highlander.png",
                     Review = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam elit neque, pretium quis rhoncus a, molestie id est. Nulla congue tortor hendrerit pulvinar convallis."
                 },
                 new MovieModel
@@ -19,7 +19,7 @@ namespace BasicMovieApp.Services
                     Id = 2,
                     Title = "Godfather",
                     Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    ImageUrl = "/images/movies/Godfather.png",
+                    ImageUrl = "/images/Movies/Godfather.png",
                     Review = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam elit neque, pretium quis rhoncus a, molestie id est. Nulla congue tortor hendrerit pulvinar convallis."
                 },
                 new MovieModel
@@ -27,7 +27,7 @@ namespace BasicMovieApp.Services
                     Id = 3,
                     Title = "Last of the Mohicans",
                     Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    ImageUrl = "/images/movies/LastOfTheMohicans.png",
+                    ImageUrl = "/images/Movies/LastOfTheMohicans.png",
                     Review = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam elit neque, pretium quis rhoncus a, molestie id est. Nulla congue tortor hendrerit pulvinar convallis."
                 },
                  new MovieModel
@@ -35,7 +35,7 @@ namespace BasicMovieApp.Services
                     Id = 4,
                     Title = "Police Academy",
                     Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    ImageUrl = "/images/movies/PoliceAcademy6.png",
+                    ImageUrl = "/images/Movies/PoliceAcademy6.png",
                     Review = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam elit neque, pretium quis rhoncus a, molestie id est. Nulla congue tortor hendrerit pulvinar convallis."
                 },
                  new MovieModel
@@ -43,7 +43,7 @@ namespace BasicMovieApp.Services
                     Id = 5,
                     Title = "Rear Window",
                     Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    ImageUrl = "/images/movies/RearWindow.png",
+                    ImageUrl = "/images/Movies/RearWindow.png",
                     Review = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam elit neque, pretium quis rhoncus a, molestie id est. Nulla congue tortor hendrerit pulvinar convallis."
                 },
                  new MovieModel
@@ -51,7 +51,7 @@ namespace BasicMovieApp.Services
                     Id = 6,
                     Title = "Road House",
                     Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    ImageUrl = "/images/movies/RoadHouse.png",
+                    ImageUrl = "/images/Movies/RoadHouse.png",
                     Review = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam elit neque, pretium quis rhoncus a, molestie id est. Nulla congue tortor hendrerit pulvinar convallis."
                 },
             };
